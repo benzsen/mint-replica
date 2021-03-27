@@ -3,19 +3,73 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <title></title>
+    <title>Sign-up Page</title>
   </head>
   <body>
-    <h1 class="logo">INTUIT</h1>
-    <form class="" action="index.html" method="post">
-      Email address:
-      <br>
-      <input type="text" name="" value="">
-      <br>
-      <br>
-      hone (recommended)
-      <br>
-      <input type="text" name="" value="">
-    </form>
+    <div class="navDiv">
+    <nav>
+      <div class="existing-user">
+        <div><span class="learn-more">Already have an Intuit account?</span></div>
+        <a href="#">I forgot my User ID or Password</a>
+      </div>
+      <button class="sign-in" type="button" name="button">Sign In</button>
+    </nav>
+    </div>
+      <main>
+        <img class="logo" src="./pictures/mint-logo.png" alt="">
+        <img class="apps" src="./pictures/other-apps.png" alt="">
+
+        <form class="" action="index.html" method="post">
+          <header>
+          <span class="top-header-note">Create an Intuit account</span>
+            <span class="header-note">One account for everything Intuit, including Mint.
+            <a href="#" class="learn-more" class="learn-more">Learn more</a>
+            </span>
+          </header>
+          <tr>
+            <label class="signup-label" for="">Email address</label>
+          </tr>
+          <input type="text" name="" value="">
+          <tr>
+            <label class="signup-label" for="">Phone (recommended)</label>
+          </tr>
+          <input type="text" name="" value="">
+          <tr>
+            <span class="phone-fee">Standard call, messaging or data rates may apply.</span>
+          </tr>
+          <tr>
+            <label class="signup-label" id="pass-label" for="">Password</label>
+          </tr>
+          <input type="text" name="" value="">
+          <button type="button" name="button" class="create-account">Create Account</button>
+          <div class="consent">
+            By clicking Create Account, you agree to our
+            <br>
+            <a class="consent" href="#">Terms</a>
+            and have read and acknowledge our
+            <a class="consent" href="#">Global Privacy Statement.</a>
+          </div>
+
+        </form>
+
+
+
+        <div class="footnotes">
+          <div>
+            <a href="#" class="legals">Legal</a>
+            <a href="#" class="legals">Privacy</a>
+            <a href="#" class="legals">Security</a>
+          </div>
+          <span class="disclaimer">
+            © 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+          </span>
+          <span class="disclaimer">
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+          </span>
+        </div>
+      </main>
+      <footer>
+        <a class="privacy" href="#">Privacy Settings</a>
+      </footer>
   </body>
 </html>
